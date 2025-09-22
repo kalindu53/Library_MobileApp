@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# 📚 Mobile Library Management System
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A cross-platform **React Native (Expo)** application with **Firebase backend** that simplifies library operations for both **students** and **admins**.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
+### 👩‍🎓 Student
+- 🔐 **Login & Register** with Firebase Authentication  
+- 📖 **Browse Books** – search by title, author, or category  
+- 📕 **Borrow & Return** books (availability auto-updates)  
+- 🔔 **Notifications** – overdue reminders, announcements  
+- 👤 **Profile** – view and edit personal details  
+- 📚 **My Borrowed Books** – track current and past borrows  
+
+### 👩‍💼 Admin
+- 📕 **Manage Books** – add, edit, delete books  
+- 👥 **Manage Users** – add new users, manage roles  
+- 📊 **Reports** – see most borrowed books, active users, overdue returns  
+- 🔄 **Return Override** – mark books returned on behalf of students  
+- 🔔 **Send Notifications** – broadcast messages or reminders  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React Native (Expo, Expo Router, Tailwind/nativewind, Ionicons)  
+- **Backend**: Firebase (Authentication, Firestore, Storage)  
+- **Build/Deploy**: Expo EAS Build  
+
+---
+
+## ⚙️ Prerequisites
+
+- Node.js ≥ 18  
+- npm or yarn  
+- Expo CLI / EAS CLI  
+- Firebase project configured with Authentication & Firestore  
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the Repository**
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/your-username/library-app.git
+   cd library-app
+youtube - https://youtu.be/1L71-RW6ML4
