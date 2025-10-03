@@ -1,26 +1,26 @@
 {
   "expo": {
     "name": "MyApp",
-    "slug": "MyApp",
+    "slug": "myapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.kalindu2003.myapp",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundColor": "#E6F4FE",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false,
-      "package": "com.kalindu2003.MyApp"
+      "predictiveBackGestureEnabled": false
     },
     "web": {
       "output": "static",
@@ -47,10 +47,11 @@
       "typedRoutes": true,
       "reactCompiler": true
     },
+    "owner": "kalindu2003",
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "4195a7a8-e2f2-4f3d-9b4c-0e2966b2cec9"
+        "projectId": "07180534-2961-4154-a47a-d94c3380120e"
       }
     }
   }
