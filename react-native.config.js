@@ -1,8 +1,8 @@
 module.exports = {
-  dependencies: {},
   project: {
     android: {
-      packageName: "com.kalindu2003.myapp"
-    }
-  }
+      packageName: "com.kalindu2003.myapp", // 👈 matches app.json
+    },
+  },
+  dependencies: {},
 };
